@@ -63,7 +63,18 @@ namespace sphere_cube_cone
 
         private void button3_Click(object sender, EventArgs e)
         {
+            try
+            {
+              
+            }
+            catch
+            {
+                label3.Text = "volume = ";
+            }
+        }
 
+        private void tabPage3_Click(object sender, EventArgs e)
+        {
 
         }
     }
